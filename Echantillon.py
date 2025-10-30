@@ -1,5 +1,5 @@
 import csv
-
+# Changer input_file par le nom du fichier que vous voulez générer un échantillon.
 input_file = 'lichess_db_puzzle_uncleaned.csv'
 output_file = 'lichess_db_puzzle_uncleaned_sample.csv'
 
@@ -13,4 +13,5 @@ with open(input_file, 'r', encoding='utf-8') as infile, \
             break
         writer.writerow(row)
 print(f"Sample de 1000 lignes écrites dans {output_file}")
+
 
