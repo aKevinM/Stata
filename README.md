@@ -1,6 +1,6 @@
 # Stata
 
-Ce répertoire contient deux scripts Python utilisés pour préparer la base de données Lichess (parties et puzzles).
+Ce répertoire contient 3 scripts Python utilisés pour préparer la base de données Lichess (parties et puzzles).
 
 Résumé
 - Nettoyer_Puzzles.py : nettoie la base de puzzles Lichess en supprimant les lignes sans "OpeningTags". Cela accélère le processus de l'étape suivante.
@@ -20,3 +20,4 @@ Requirements
 - Lancer Nettoyer_Puzzles.py
 
 - Lancer Matcher_Ouvertures.py
+
