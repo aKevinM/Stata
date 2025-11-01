@@ -6,7 +6,6 @@ Résumé
 - Nettoyer_Puzzles.py : nettoie la base de puzzles Lichess en supprimant les lignes sans "OpeningTags". Cela accélère le processus de l'étape suivante.
 - Nettoyer_Suite.py : Liste des puzzles qui ont été supprimés dans Nettoyer_Puzzles.py
 - Matcher_Ouvertures.py : normalise le champ "OpeningTags" des puzzles en le mappant sur les ouvertures réelles extraites de la base d'analyses de parties. Cela permet de pouvoir merge les 2 base des données sur l'ouverture.
-- Echantillon.py : Sauvegarde le fichier en gardant uniquement les 1000 premières lignes
 
 Requirements
 - 120Go d'espace libre
@@ -21,4 +20,5 @@ Requirements
 - Lancer Nettoyer_Suite.py
 - Lancer Matcher_Ouvertures.py
 - Lancer le do file sur STATA
+
 
