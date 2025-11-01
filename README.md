@@ -8,7 +8,7 @@ Résumé
 - Matcher_Ouvertures.py : normalise le champ "OpeningTags" des puzzles en le mappant sur les ouvertures réelles extraites de la base d'analyses de parties. Cela permet de pouvoir merge les 2 base des données sur l'ouverture.
 
 Requirements
-- 120Go d'espace libre
+- ~150Go d'espace libre
 - Python 3.12
 - PeaZip (Pour Windows)
 
@@ -20,5 +20,6 @@ Requirements
 - Lancer Nettoyer_Suite.py
 - Lancer Matcher_Ouvertures.py
 - Lancer le do file sur STATA
+
 
 
