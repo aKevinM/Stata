@@ -18,6 +18,7 @@ Requirements
 - Aller sur : https://database.lichess.org/#puzzles et télécharger le fichier
 - Décompresser les fichiers (avec PeaZip sur Windows)
 - Lancer Nettoyer_Puzzles.py
-
+- Lancer Nettoyer_Suite.py
 - Lancer Matcher_Ouvertures.py
+- Lancer le do file sur STATA
 
