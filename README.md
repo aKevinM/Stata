@@ -4,7 +4,7 @@ Ce répertoire contient 3 scripts Python utilisés pour préparer la base de don
 
 Résumé
 - Nettoyer_Puzzles.py : nettoie la base de puzzles Lichess en supprimant les lignes sans "OpeningTags". Cela accélère le processus de l'étape suivante.
-- Nettoyer_Suite.py : Liste des puzzles qui ont été supprimés dans Nettoyer_Puzzles.py
+- Nettoyer_Suite.py : Liste des puzzles qui ont été supprimés dans Nettoyer_Puzzles.py (pour pouvoir les append sur STATA plus tard).
 - Matcher_Ouvertures.py : normalise le champ "OpeningTags" des puzzles en le mappant sur les ouvertures réelles extraites de la base d'analyses de parties. Cela permet de pouvoir merge les 2 base des données sur l'ouverture.
 
 Requirements
@@ -20,6 +20,7 @@ Requirements
 - Lancer Nettoyer_Suite.py
 - Lancer Matcher_Ouvertures.py
 - Lancer le do file sur STATA
+
 
 
 
