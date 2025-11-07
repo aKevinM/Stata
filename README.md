@@ -24,7 +24,9 @@ Requirements
 - Lancer le do file sur STATA
 
 Notes
+
 Le matching des ouvertures n'est pas parfait. Il ne consèrve uniquement les ouvertures les plus faciles à matcher et supprime souvent les variations des ouvertures.
+
 
 
 
